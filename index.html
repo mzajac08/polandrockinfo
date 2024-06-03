@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <title>Pol'and'Rock html page</title>
+    <script>
+        function aktualnaGodzina() {
+            const teraz = new Date();
+            const godzina = teraz.getHours().toString().padStart(2, '0');
+            const minuta = teraz.getMinutes().toString().padStart(2, '0');
+            const sekunda = teraz.getSeconds().toString().padStart(2, '0');
+            document.getElementById('zegar').innerHTML = godzina + ':' + minuta + ':' + sekunda;
+        }
+        setInterval(aktualnaGodzina, 1000);
+    </script>
+</head>
+
+<body>
+      <a href="#">Home</a>
+      <a href="lineup.html">Line-up</a>
+      <a href="https://rockcamp.pl/">Tickets</a>
+
+      <h1><font face="Arial">30. Pol'and'Rock Festival 2024</font></h1>
+      <p>Największy festiwal muzyczny odbywający się w Polsce!</p>
+      <a href="https://polandrockfestival.pl/"><button>Dowiedz się więcej</button></a>
+      <h2><font face="Arial">Aktualna godzina: <span id="zegar"></span></font></h2>
+        <h3><font face="Arial">Data</font></h3>
+        <p>1-3.08.2024</p>
+        <h3><font face="Arial">Miejsce</font></h3>
+        <p>Teren Lotniska Czaplinek-Broczyno</p>
+        <h3><font face="Arial">Eliminacje</font></h3>
+        <p>Termin przyjmowania zgłoszeń do Eliminacji minął 31.03.2024 roku. 18.04 jury rozpoczęło obrady, aby wybrać zespołu, które zostaną zaproszone do kolejnego etapu - koncertów na żywo!</p>
+
+<h2><font face="Arial">KRÓTKO O EVENCIE</font></h2>
+
+        <p>Pol'and'Rock Festival to ogromny letni Festiwal muzyczny organizowany na przełomie lipca i sierpnia w Polsce. Przez 16 lat odbywał się w Kostrzynie nad Odrą, a w jego czasie gościliśmy artystów z Polski i zza granicy na pięciu scenach: Dużej, Małej, Scenie Lecha, Viva Kultura i Nocnej Scenie ASP.
+</p><p>
+Organizatorem Festiwalu jest Fundacja Wielka Orkiestra Świątecznej Pomocy, która tym letnim koncertem chce podziękować wszystkim wolontariuszom i ludziom wspierającym jej styczniowe, finałowe działania. Pierwszy festiwal odbył się w 1995 roku w Czymanowie nad jeziorem Żarnowieckim.</p>
+
+<table border="1">
+        <tr>
+            <th>2023</th>
+            <th>2024</th>
+        </tr>
+        <tr>
+            <td>21 artystów</td>
+            <td>27 artystów</td>
+        </tr>
+</table>
+
+<br></br>
+
+<img src="index_pliki/F22FdEjWgAAaTUI.jpeg">
+
+<p><font face="Arial">Kontakt: 22 852 32 14, 22 852 32 15</font></p>
+        <p1><font face="Arial">More Info</font></p1>
+        <a href="#">Home</a>
+        <a href="file:///C:/Users/majaz/Desktop/lineup.html">Line-up</a>
+        <a href="https://rockcamp.pl/">Tickets</a>
+        <br></br>
+        <a href="https://www.facebook.com/PolAndRockFestival">---FACEBOOK---</a>
+</body>
+
+</html>
